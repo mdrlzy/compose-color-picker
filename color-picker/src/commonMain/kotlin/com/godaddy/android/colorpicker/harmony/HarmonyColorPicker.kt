@@ -116,7 +116,7 @@ fun HarmonyColorPicker(
 }
 
 @Composable
-private fun HarmonyColorPickerWithMagnifiers(
+fun HarmonyColorPickerWithMagnifiers(
     modifier: Modifier = Modifier,
     hsvColor: HsvColor,
     onColorChanged: (HsvColor) -> Unit,
